@@ -119,8 +119,42 @@ main > section{
 .section-title{
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 10px;
+}
+.fact-card{
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
+.fact-number{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3.5px;
+    margin-bottom: 7.5px;
+}
+
+.fact-name{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.fact-description{
+    max-width: 500px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
 
 @media screen and (max-width:576px) {
     .navbar{
